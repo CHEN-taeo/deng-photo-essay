@@ -1,0 +1,1 @@
+class s extends HTMLElement{static observedAttributes=["progress"];attributeChangedCallback(r,i,e){this.style.setProperty("--progress",e),this.classList.toggle("is-inview",Math.abs(Number(e))<1)}}customElements.define("a-work",s);
